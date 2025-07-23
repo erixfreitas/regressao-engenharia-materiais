@@ -72,20 +72,20 @@ Explica a influência de cada variável nas previsões usando SHAP values.
 
 ## 📂 Como Clonar e Executar o Projeto
 
-## 🔁 Clonando o repositório
+### 🔁 Clonando o repositório
 
 git clone https://github.com/erixfreitas/regressao-engenharia-materiais  
 cd projeto-concreto  
 Substitua seu-usuario pelo seu nome de usuário do GitHub.
 
 
-## 📦 Instalação de Bibliotecas
+### 📦 Instalação de Bibliotecas
 
-## 📁 Opção 1: Usando requirements.txt
+### 📁 Opção 1: Usando requirements.txt
 
 `pip install -r requirements.txt`
 
-## ⚙️ Opção 2: Manual (pip)
+### ⚙️ Opção 2: Manual (pip)
 
 `pip install pandas numpy matplotlib seaborn scikit-learn shap`
 
