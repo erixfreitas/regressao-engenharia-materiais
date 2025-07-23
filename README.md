@@ -101,3 +101,10 @@ Substitua seu-usuario pelo seu nome de usuário do GitHub.
 | **Regressão Linear**          | Modelo estatístico simples para prever variáveis contínuas.        |
 | **GridSearchCV**              | Técnica para encontrar a melhor combinação de hiperparâmetros.     |
 | **Resíduos**                  | Diferença entre o valor real e o valor previsto.                   |
+
+# Referências
+
+* [Scikit-learn](https://scikit-learn.org/stable/)
+* [SHAP](https://shap.readthedocs.io/en/latest/)
+* [Pandas](https://pandas.pydata.org/)
+* [Seaborn](https://seaborn.pydata.org/)
