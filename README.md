@@ -102,7 +102,7 @@ Substitua seu-usuario pelo seu nome de usuário do GitHub.
 | **GridSearchCV**              | Técnica para encontrar a melhor combinação de hiperparâmetros.     |
 | **Resíduos**                  | Diferença entre o valor real e o valor previsto.                   |
 
-# Referências
+# 📎 Referências
 
 * [Scikit-learn](https://scikit-learn.org/stable/)
 * [SHAP](https://shap.readthedocs.io/en/latest/)
