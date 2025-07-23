@@ -28,76 +28,76 @@ Projeto de Ciência de Dados aplicado à previsão da resistência à compressã
 🔍 Explicação dos Blocos de Código
 1. Carregamento e Limpeza de Dados
 
-```def carregar_dados(caminho_csv: str) -> pd.DataFrame:
-    ...```
+`def carregar_dados(caminho_csv: str) -> pd.DataFrame:
+    ...`
 Carrega o CSV, remove valores nulos e retorna o DataFrame limpo.
 
 2. Matriz de Correlação
 
-```def plot_matriz_correlacao(df: pd.DataFrame) -> None:
-    ...```
+`def plot_matriz_correlacao(df: pd.DataFrame) -> None:
+    ...`
 Gera um heatmap com a correlação entre variáveis numéricas.
 
 3. Relação Variáveis x Resistência
 
-```def plot_dispersao_variaveis(df: pd.DataFrame) -> None:
-    ...```
+`def plot_dispersao_variaveis(df: pd.DataFrame) -> None:
+    ...`
 Mostra a dispersão das variáveis Cement, Water e Age em relação à resistência.
 
 4. Resistência Média por Categoria
 
-```def plot_resistencia_media(df: pd.DataFrame) -> None:
-    ...```
+`def plot_resistencia_media(df: pd.DataFrame) -> None:
+    ...`
 Exibe a média da resistência por categoria de força (Strength Category).
 
 5. Engenharia de Variáveis
 
-```def preparar_variaveis(df: pd.DataFrame) -> pd.DataFrame:
-    ...```
+`def preparar_variaveis(df: pd.DataFrame) -> pd.DataFrame:
+    ...`
 Converte categorias em dummies (variáveis binárias) e renomeia colunas.
 
 6. Modelagem
 
-```def treinar_modelos(X_train, X_test, y_train, y_test):
-    ...```
+`def treinar_modelos(X_train, X_test, y_train, y_test):
+    ...`
 Treina Random Forest e Regressão Linear, exibindo R² e MAE.
 
 7. Otimização com GridSearchCV
 
-```params = {...}
-grid_model = GridSearchCV(...)```
+`params = {...}
+grid_model = GridSearchCV(...)`
 Ajusta hiperparâmetros para o Random Forest com validação cruzada.
 
 8. Análise de Resíduos
 
-```residuo = y_test - y_pred_grid...```
+`residuo = y_test - y_pred_grid...`
 Verifica padrões nos erros do modelo. Idealmente, resíduos devem ser aleatórios.
 
 9. Interpretação com SHAP
 
-```def interpretar_modelo(modelo, X_test):
-    ...```
+`def interpretar_modelo(modelo, X_test):
+    ...`
 Explica a influência de cada variável nas previsões usando SHAP values.
 
 📂 Como Clonar e Executar o Projeto
 
 🔁 Clonando o repositório
 
-```git clone https://github.com/erixfreitas/regressao-engenharia-materiais
-cd projeto-concreto```
+`git clone https://github.com/erixfreitas/regressao-engenharia-materiais
+cd projeto-concreto`
 Substitua seu-usuario pelo seu nome de usuário do GitHub.
 
 📦 Instalação de Bibliotecas
 
 📁 Opção 1: Usando requirements.txt
 
-```pip install -r requirements.txt```
+`pip install -r requirements.txt`
 
 ⚙️ Opção 2: Manual (pip)
 
-```pip install pandas numpy matplotlib seaborn scikit-learn shap```
+`pip install pandas numpy matplotlib seaborn scikit-learn shap`
 
-```📚 Glossário
+`📚 Glossário
 
 | Termo                         | Descrição                                                          |
 | ----------------------------- | ------------------------------------------------------------------ |
