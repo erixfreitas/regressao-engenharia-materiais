@@ -74,10 +74,7 @@ Explica a influência de cada variável nas previsões usando SHAP values.
 
 ### 🔁 Clonando o repositório
 
-git clone https://github.com/erixfreitas/regressao-engenharia-materiais  
-cd projeto-concreto  
-Substitua seu-usuario pelo seu nome de usuário do GitHub.
-
+git clone https://github.com/erixfreitas/regressao-engenharia-materiais.git
 
 ### 📦 Instalação de Bibliotecas
 
